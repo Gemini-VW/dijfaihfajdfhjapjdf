@@ -1,0 +1,18 @@
+1. Create Library in mysql from left side
+
+2. Add table:
+----------------------------------------
+		admin_information
+Column name:	First_Name, Last_Name, User_Name(Unique), Password, Confirm_Password, Email_ID, Contact_No
+----------------------------------------
+		librarian_information
+Column name:	First_Name, Last_Name, User_Name(Unique), Password, Confirm_Password, Email_ID, Contact_No
+----------------------------------------
+		user_information
+Column name:	First_Name, Last_Name, User_Name(Unique), Password, Confirm_Password, Email_ID, Contact_No
+----------------------------------------
+		bookshelf
+Column name:	Book_ID(Unique), Book_Name, Author_Name, Shelf_No, Total_Copy, Available_Copy
+----------------------------------------
+		issue_Books
+Column name:	User_Name, Book_ID, Borrow_Date, Return_Date
